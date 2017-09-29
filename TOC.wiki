@@ -8,9 +8,13 @@
 ------------------------------------ 
 == █ eBooks █ ==
 
-=== ✒ 各类电子书: 政,经,史,哲,军事,文艺,社会,心理,管理, IT　=== 
-* https://github.com/billebooks/programthink-books
-
+=== ✒ 各类电子书: 政,经,史,哲,军事,文艺,社会,心理,管理, IT　===  
+<blockquote> 
+{|　　class="wikitable"
+|-
+|https://github.com/billebooks/programthink-books
+|} 
+</blockquote>
 
 
 ------------------------------------
@@ -56,8 +60,6 @@
 == █ Social █ ==
 
 === ✒ 太子党关系网络　=== 
- 
-
 <blockquote> 
 {|　　class="wikitable"
 |-
@@ -68,7 +70,6 @@
 
 
 === ✒ 各类网站: 新闻时事,政治,财经,IT技术,科普,编程　=== 
-:::
 <blockquote> 
 {|　　class="wikitable"
 |-
