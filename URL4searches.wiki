@@ -2,15 +2,17 @@
 <h1>电子书总目录 (频繁更新)</h1>
 
 ----
+ 
 
-= book search URL =
+{|　
 
-*[搬书匠] - 电子书(EBook) 
-  www.banshujiang.cn/
+|-
+| [搬书匠]  || www.banshujiang.cn/
 
-万千合集站 - 学术资源导航 交流分享 - Powered by Discuz!     
-http://www.hejizhan.com/s/forum.php
+|-
+| 万千合集站 || http://www.hejizhan.com/s/forum.php
 
+|}
 
 
 ----
