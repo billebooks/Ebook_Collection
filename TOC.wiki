@@ -5,13 +5,39 @@
 = collections = 
  
 
- 
+------------------------------------
  
 == eBooks ==
 
 === 各类电子书: 政,经,史,哲,军事,文艺,社会,心理,管理, IT　=== 
 * https://github.com/billebooks/programthink-books
 
+
+== Computer == 
+
+
+------------------------------------
+=== Spark GraphX in Action ===
+ 
+[[image:https://img1.doubanio.com/spic/s28863349.jpg]]  
+
+{|　
+|-
+| Spark GraphX in Action  || 作者: Michael Malak / Robin East || 出版社: Manning Publications || 出版年: 2016-7-3 || 页数: 280 || 定价: USD 49.99 || 装帧: Paperback || ISBN: 9781617292521　|| https://book.douban.com/subject/26829425/
+|}
+
+:Spark GraphX in Action.2016.英文版.pdf        
+::* [http://www.banshujiang.cn/e_books/1830 搬书匠#1830]  --->  [http://www.banshujiang.cn/e_books/1830/webstorage_links/5458/to_link Mega网盘]
+::* [https://drive.google.com/file/d/0B8LkVtEZMB0McEZHakc0R1ZuZE0/view?usp=sharing gd]
+
+{|　
+|-
+| Spark GraphX实战 || 作者: 【美】Michael S. Malak / 【美】Robin East || 出版社: 电子工业出版社 || 译者: 时金魁 / 黄光远  || 出版年: 2017-4 || 页数: 300 || 定价: 79 || 装帧: 平装 || ISBN: 9787121310430 || https://book.douban.com/subject/27004653/
+|}
+ 
+   
+   
+------------------------------------
 == Social ==
 
 === 太子党关系网络　=== 
@@ -63,9 +89,11 @@
 
 ----
 
-{|　
+{|　　　　　\r\n　　　||　
+
 |-
 | Wiki语法大全 || https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/Wiki%E5%AD%A6%E4%B9%A0/page/Wiki%E8%AF%AD%E6%B3%95%E5%A4%A7%E5%85%A8
+
 |-
 | Wiki语法 || https://zh.wikipedia.org/wiki/Help:%E7%BC%96%E8%BE%91%E9%A1%B5%E9%9D%A2
 
