@@ -61,18 +61,18 @@
 <blockquote> 
 {|　　class="wikitable"
 |-
-|https://github.com/billebooks/programthink-zhao　|  
+|https://github.com/billebooks/programthink-zhao　
 |} 
 </blockquote>
 
 
 
 === ✒ 各类网站: 新闻时事,政治,财经,IT技术,科普,编程　=== 
- 
+:::
 <blockquote> 
 {|　　class="wikitable"
 |-
-|https://github.com/billebooks/programthink-sites　|  
+|https://github.com/billebooks/programthink-sites　
 |} 
 </blockquote>
  
