@@ -18,9 +18,9 @@
 
 
 
-=== > Spark GraphX in Action ===
- 
-[[image:https://img1.doubanio.com/spic/s28863349.jpg]]  
+=== Spark GraphX in Action ===
+<blockquote>
+:::[[image:https://img1.doubanio.com/spic/s28863349.jpg]]  
 
 {|　　class="wikitable"
 |-
@@ -31,9 +31,9 @@
 |colspan="100"| https://book.douban.com/subject/26829425/
 |}
 
-::*Spark GraphX in Action.2016.英文版.pdf        
-::::&rarr; [http://www.banshujiang.cn/e_books/1830 搬书匠#1830]  --->  [http://www.banshujiang.cn/e_books/1830/webstorage_links/5458/to_link Mega网盘]
-::::&rarr; [https://drive.google.com/file/d/0B8LkVtEZMB0McEZHakc0R1ZuZE0/view?usp=sharing gd]
+:::*Spark GraphX in Action.2016.英文版.pdf        
+:::::&rarr; [http://www.banshujiang.cn/e_books/1830 搬书匠#1830]  --->  [http://www.banshujiang.cn/e_books/1830/webstorage_links/5458/to_link Mega网盘]
+:::::&rarr; [https://drive.google.com/file/d/0B8LkVtEZMB0McEZHakc0R1ZuZE0/view?usp=sharing gd]
 
  
 {|　 
@@ -46,8 +46,11 @@
 https://book.douban.com/subject/27004653/  
 |}
    
-   
+</blockquote>
+
+
 ------------------------------------
+
 == 【【Social】】 ==
 
 === 太子党关系网络　=== 
