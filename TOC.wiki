@@ -28,7 +28,7 @@
 
 {|　　class="wikitable"
 |-
-|colspan="100"　| '''> Spark GraphX in Action'''
+|colspan="100"　| '''>> Spark GraphX in Action'''
 |-
 | 作者: Michael Malak / Robin East || 出版社: Manning Publications || 出版年: 2016-7-3 || 页数: 280 || 定价: USD 49.99 || 装帧: Paperback || ISBN: 9781617292521　
 |-
@@ -43,7 +43,7 @@
  
 {|　 
 |-
-|colspan="100" | '''> Spark GraphX实战'''
+|colspan="100" | '''>> Spark GraphX实战'''
 |-
 | 作者: 【美】Michael S. Malak / 【美】Robin East || 出版社: 电子工业出版社 || 译者: 时金魁 / 黄光远  || 出版年: 2017-4 || 页数: 300 || 定价: 79 || 装帧: 平装 || ISBN: 9787121310430 
 |-
