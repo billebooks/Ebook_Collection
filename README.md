@@ -14,6 +14,7 @@
 | Markdown入门参考 | http://xianbai.me/learn-md/index.html |    
 | Common markup | https://gist.github.com/dupuy/1855764 |   
 | Markdown Cheatsheet | http://assemble.io/docs/Cheatsheet-Markdown.html |  
+| Markdown Cheatsheet | https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet |  
 
 
 
