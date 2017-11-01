@@ -54,6 +54,28 @@
 </blockquote>
 
 
+
+
+=== ✒ regular expression 正则表达式 ===
+<blockquote> 
+{|　　class="wikitable"
+|-
+|https://www.gitbook.com/read/book/luke0922/learnregularexpressionin30minutes　|| [https://www.gitbook.com/download/pdf/book/luke0922/learnregularexpressionin30minutes pdf] 
+|-
+| 改编自[http://deerchao.net/tutorials/regex/regex.htm#mission 《正则表达式30分钟入门教程》]
+|} 
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
 ------------------------------------
 
 == █ Social █ ==
