@@ -5,6 +5,25 @@
 <h1> collections </h1>
  
 
+
+
+------------------------------------ 
+== █ search site █ ==
+
+=== ✒ search repo ===
+<blockquote> 
+{|　　class="wikitable"
+|-
+|雅书 - PDF电子书学习下载站 || http://www.yabook.org/  
+|} 
+</blockquote>
+
+
+
+
+
+
+
 ------------------------------------ 
 == █ eBooks █ ==
 
