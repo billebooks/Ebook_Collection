@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+    <title>it-ebook</title>
+
+    <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="./css/base.css" rel="stylesheet">
+    <link href="./css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-85222466-2', 'it-ebook.ml');
+    ga('send', 'pageview');
+    </script>
+    
+</head>
+
+<body class="homepage" >
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href=".">it-ebook</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href=".">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="about/">About</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li class="disabled">
+                        <a rel="next" >
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="about/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="first-level active"><a href="#_1">机器学习/数据挖掘</a></li>
+        
+            <li class="second-level"><a href="#_2">机器学习理论</a></li>
+            
+                <li class="third-level"><a href="#_3">数理统计基础</a></li>
+            
+                <li class="third-level"><a href="#_4">综合入门</a></li>
+            
+                <li class="third-level"><a href="#_5">计算机视觉</a></li>
+            
+                <li class="third-level"><a href="#_6">自然语言处理</a></li>
+            
+                <li class="third-level"><a href="#_7">深度学习</a></li>
+            
+        
+            <li class="second-level"><a href="#_8">数据挖掘实践</a></li>
+            
+                <li class="third-level"><a href="#_9">数据清洗与可视化</a></li>
+            
+                <li class="third-level"><a href="#_10">推荐系统与社交网络</a></li>
+            
+                <li class="third-level"><a href="#_11">分类与回归</a></li>
+            
+                <li class="third-level"><a href="#_12">异常检测</a></li>
+            
+        
+            <li class="second-level"><a href="#_13">深度学习实践</a></li>
+            
+                <li class="third-level"><a href="#tensorflow">Tensorflow</a></li>
+            
+                <li class="third-level"><a href="#pytorch">Pytorch</a></li>
+            
+                <li class="third-level"><a href="#caffe">Caffe</a></li>
+            
+                <li class="third-level"><a href="#java">Java</a></li>
+            
+                <li class="third-level"><a href="#keras">Keras</a></li>
+            
+                <li class="third-level"><a href="#python">Python</a></li>
+            
+        
+            <li class="second-level"><a href="#_14">大数据</a></li>
+            
+                <li class="third-level"><a href="#hadoop">Hadoop</a></li>
+            
+                <li class="third-level"><a href="#spark">Spark</a></li>
+            
+                <li class="third-level"><a href="#flink">Flink</a></li>
+            
+                <li class="third-level"><a href="#_15">其他</a></li>
+            
+        
+            <li class="second-level"><a href="#_16">程序设计语言</a></li>
+            
+                <li class="third-level"><a href="#python_1">Python</a></li>
+            
+                <li class="third-level"><a href="#java_1">Java</a></li>
+            
+                <li class="third-level"><a href="#scala">Scala</a></li>
+            
+                <li class="third-level"><a href="#c">C</a></li>
+            
+                <li class="third-level"><a href="#cc">C/C++</a></li>
+            
+                <li class="third-level"><a href="#javascript">JavaScript</a></li>
+            
+                <li class="third-level"><a href="#_17">其他</a></li>
+            
+        
+            <li class="second-level"><a href="#_18">软件工程</a></li>
+            
+                <li class="third-level"><a href="#_19">需求</a></li>
+            
+                <li class="third-level"><a href="#_20">管理</a></li>
+            
+                <li class="third-level"><a href="#_21">测试</a></li>
+            
+                <li class="third-level"><a href="#_22">设计模式</a></li>
+            
+        
+            <li class="second-level"><a href="#_23">操作系统</a></li>
+            
+                <li class="third-level"><a href="#windows">Windows</a></li>
+            
+                <li class="third-level"><a href="#linux">Linux</a></li>
+            
+                <li class="third-level"><a href="#_24">分布式系统</a></li>
+            
+                <li class="third-level"><a href="#_25">虚拟化</a></li>
+            
+                <li class="third-level"><a href="#_26">编译原理</a></li>
+            
+                <li class="third-level"><a href="#_27">并发</a></li>
+            
+        
+            <li class="second-level"><a href="#_28">网络与安全</a></li>
+            
+                <li class="third-level"><a href="#_29">计算机网络</a></li>
+            
+                <li class="third-level"><a href="#_30">攻防</a></li>
+            
+        
+            <li class="second-level"><a href="#_31">数据库</a></li>
+            
+                <li class="third-level"><a href="#mysql">MySQL</a></li>
+            
+                <li class="third-level"><a href="#msserver">MSServer</a></li>
+            
+                <li class="third-level"><a href="#postgres">Postgres</a></li>
+            
+        
+            <li class="second-level"><a href="#_32">移动开发</a></li>
+            
+                <li class="third-level"><a href="#android">android</a></li>
+            
+                <li class="third-level"><a href="#ios">ios</a></li>
+            
+                <li class="third-level"><a href="#game">game</a></li>
+            
+        
+            <li class="second-level"><a href="#_33">程序员技能</a></li>
+            
+                <li class="third-level"><a href="#tex">Tex</a></li>
+            
+                <li class="third-level"><a href="#_34">面试</a></li>
+            
+                <li class="third-level"><a href="#_35">拓展读物</a></li>
+            
+        
+            <li class="second-level"><a href="#_36">学术论文</a></li>
+            
+        
+    
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="_1">机器学习/数据挖掘</h1>
+<h2 id="_2">机器学习理论</h2>
+<h3 id="_3">数理统计基础</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Numeric Computation and Statistical Data Analysis on the Java Platform</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220071436">pdf</a> <a href="https://page65.ctfile.com/fs/15461965-220071428">epub</a></td>
+</tr>
+<tr>
+<td align="left">Python for Probability,Statistics,and Machine Learning</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220068553">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical Statistics for Data Scientists</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220072983">pdf</a></td>
+</tr>
+<tr>
+<td align="left">An Introduction to Statistics with Python</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220072947">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Bayesian Analysis with Python</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073308">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Bayesian Statistics in Action</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073322">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Introduction to.Bayesian Statistics.3rd.Edition</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073879">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python Cookbook第三版中文v2.0.0</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073127">pdf</a></td>
+</tr>
+<tr>
+<td align="left">有趣的统计：75招学会数据分析</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074504">epub</a></td>
+</tr>
+<tr>
+<td align="left">用Python学微积分</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074497">epub</a></td>
+</tr>
+<tr>
+<td align="left">应用回归分析（第三版）</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959625">mobi</a></td>
+</tr>
+<tr>
+<td align="left">用 Python 做科学计算(第二版)</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220071837">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Numpy攻略 python科学计算与数据分析</td>
+<td align="left">2013</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220071666">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python数据分析基础教程：NumPy学习指南（第2版）</td>
+<td align="left">2013</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073134">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Coding the Matrix</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220072958">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Machine Learning &amp; Bayesian Reasoning</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220072975">pdf</a></td>
+</tr>
+<tr>
+<td align="left">概率论与数理统计习题全解指南(浙大四版)</td>
+<td align="left">2012</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073010">pdf</a></td>
+</tr>
+<tr>
+<td align="left">浙江大学概率论与数理统计(第四版)</td>
+<td align="left">2012</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073058">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">综合入门</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mastering Machine Learning with R 2nd Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225135639">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Machine Learning Algorithms</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225135623">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical Machine Learning Cookbook</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225135586">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python Real World Machine Learning</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074147">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Java Data Science Made Easy</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959093">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Encyclopedia of Machine Learning and Data Mining 2nd.Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220068473">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Thoughtful Machine Learning with Python: A Test-Driven Approach</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959042">pdf</a></td>
+</tr>
+<tr>
+<td align="left">The Data Science Design Manual</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074440">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Principles of Data Mining-3rd</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220078853">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Think Like a Data Scientist</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074447">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Introduction Machine  Learning with Python</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073114">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Handbook of Statistical Analysis and Data Mining Applications</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073833">pdf</a></td>
+</tr>
+<tr>
+<td align="left">机器学习算法原理与编程实践_郑捷著_电子工业出版社</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959584">pdf</a></td>
+</tr>
+<tr>
+<td align="left">数据科学家修炼之道</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074495">epub</a></td>
+</tr>
+<tr>
+<td align="left">PRML_模式识别与机器学习_中文</td>
+<td align="left">2006</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959483">pdf</a></td>
+</tr>
+<tr>
+<td align="left">PRML笔记-Notes on Pattern Recognition and Machine Learning</td>
+<td align="left">2006</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220072984">pdf</a></td>
+</tr>
+<tr>
+<td align="left">PRML-Solutions to Exercises-Tutors' Edition</td>
+<td align="left">2006</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073066">pdf</a></td>
+</tr>
+<tr>
+<td align="left">白话大数据与机器学习</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959442">mobi</a></td>
+</tr>
+<tr>
+<td align="left">机器学习_周志华</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959371">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical Machine Learning Innovations in Recommendation</td>
+<td align="left">2014</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959081">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical Machine Learning A New Look at Anomaly Detection</td>
+<td align="left">2014</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959111">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Classification  Algorithms and Applications</td>
+<td align="left">2014</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073336">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Clustering Algorithms and Applications</td>
+<td align="left">2014</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073362">pdf</a></td>
+</tr>
+<tr>
+<td align="left">数据挖掘 实用机器学习工具与技术 原书第3版</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225205696">pdf</a></td>
+</tr>
+<tr>
+<td align="left">统计学习方法</td>
+<td align="left">2012</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220072939">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Machine Learning :A Probabilistic Perspective</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220068065">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Encyclopedia of Social Network Analysis and Mining</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073297">pdf</a></td>
+</tr>
+<tr>
+<td align="left">统计学习基础—数据挖掘、推理与预测</td>
+<td align="left">2009</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220067696">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Feature Selection for High-Dimensional Data</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073742">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Feature Extraction</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073734">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Feature Engineering</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073724">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical machine learning cookbook</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074034">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical Guide to Logistic Regression</td>
+<td align="left">2012</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073963">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5">计算机视觉</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Computer Vision_ A Reference Guide</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220078839">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Guide to Medical Image Analysis</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073789">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Learning OpenCV3 Computer Vision in C++ with the OpenCV Library</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220066723">pdf</a></td>
+</tr>
+<tr>
+<td align="left">OpenCV3计算机视觉 Python语言实现(第二版)</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959159">pdf</a></td>
+</tr>
+<tr>
+<td align="left">OpenCV实例精解</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959599">pdf</a> <a href="https://page65.ctfile.com/fs/15461965-220071501">azw3</a></td>
+</tr>
+<tr>
+<td align="left">OpenCV官方教程中文版（For Python）</td>
+<td align="left">2015</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073122">pdf</a></td>
+</tr>
+<tr>
+<td align="left">OpenCV 2 计算机视觉编程手册_中文版</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073229">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">自然语言处理</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Python Natural Language Processing</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225134902">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Neural Network Methods in Natural Language Processing</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959144">pdf</a></td>
+</tr>
+<tr>
+<td align="left">统计自然语言处理（第2版） (中文信息处理丛书)</td>
+<td align="left">2013</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959339">epub</a></td>
+</tr>
+<tr>
+<td align="left">Natural Language Processing with Java</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073956">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python Natural Language Processing</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074097">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">深度学习</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Guide to Convolutional Neural Networks</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073763">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Fundamentals of Deep Learning</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073755">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Deep Learning A Practitioner's Approach</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073630">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Deep Learning medical image analysis</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073665">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Deep Learning 中文版v0.4</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959612">pdf</a></td>
+</tr>
+<tr>
+<td align="left">神经⽹络与深度学习</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073015">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_8">数据挖掘实践</h2>
+<h3 id="_9">数据清洗与可视化</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">R for Data Science Visualize Model Transform Tidy and Import Data</td>
+<td align="left">201７</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074240">pdf</a></td>
+</tr>
+<tr>
+<td align="left">命令行中的数据科学</td>
+<td align="left">2015</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074477">epub</a></td>
+</tr>
+<tr>
+<td align="left">干净的数据 数据清洗入门与实践</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959428">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Wrangling with Python</td>
+<td align="left">2013</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073088">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_10">推荐系统与社交网络</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mastering Social Media Mining with Python</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225135543">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Social Network Analysis Interdisciplinary Approaches and Case Study</td>
+<td align="left">201７</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074381">pdf</a></td>
+</tr>
+<tr>
+<td align="left">社会网络分析：方法与实践</td>
+<td align="left">2015</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074487">azw3</a></td>
+</tr>
+<tr>
+<td align="left">计算广告 互联网商业变现的市场与技术</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074476">epub</a></td>
+</tr>
+<tr>
+<td align="left">Recommender Systems Handbook</td>
+<td align="left">2015</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220078888">pdf</a></td>
+</tr>
+<tr>
+<td align="left">推荐系统实践</td>
+<td align="left">2012</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073023">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_11">分类与回归</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Agile Data Science 2.0 Building Full Stack Data Analytics Applications with Spark</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225205846">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python for Finance - Second Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225135221">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python for Data Analysis 2nd Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225134580">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python Machine Learning Cookbook</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074075">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python End-to-end Data Analysis</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074068">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Practical Machine Learning with H2O</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074037">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Science and Complex Networks Real Case Studies with Python</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073583">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining With Decision Trees Theory and Applications, 2nd Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073578">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Science Innovative Developments in Data Analysis and Clustering</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073599">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining A Tutorial-Based Primer, Second Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073456">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining and Learning Analytics Applications in Educational Research</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073405">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Large-Scale Machine Learning in the Earth Sciences</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959132">pdf</a></td>
+</tr>
+<tr>
+<td align="left">R Mining spatial text web and social media data</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074304">pdf</a></td>
+</tr>
+<tr>
+<td align="left">R Unleash Machine Learning Techniques</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074360">epub</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining and Predictive Analytics</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073425">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining and Statistics for Decision Making 2nd Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073430">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining for Business Analytics</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073560">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining Theories Algorithms and Examples</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073570">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Learning Data Mining with Python - Second Edition</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073887">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Learning pandas - Second Edition</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073931">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Regression Analysis with Python</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220078889">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Regression Modeling Strategies</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220078912">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Learning Predictive Analytics with Python</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073933">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Linear Regression</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073937">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Fundamentals of Machine Learning for Predictive Data Analytics</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073951">pdf</a></td>
+</tr>
+<tr>
+<td align="left">数据科学实战</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220079298">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python金融大数据分析</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959479">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Mining</td>
+<td align="left">2015</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073391">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python机器学习及实践_从零开始通往KAGGLE竞赛之路</td>
+<td align="left">2016</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959309">pdf</a></td>
+</tr>
+<tr>
+<td align="left">量化投资以Python为工具</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220016372">pdf</a></td>
+</tr>
+<tr>
+<td align="left">利用Python进行数据分析</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220066040">pdf</a></td>
+</tr>
+<tr>
+<td align="left">机器学习实践指南：案例应用解　第2版</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959502">epub</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_12">异常检测</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Outlier Analysis 2nd Edition</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220071515">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Outlier Ensembles  An Introduction</td>
+<td align="left">2014</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220071528">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_13">深度学习实践</h2>
+<h3 id="tensorflow">Tensorflow</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">TensorFlow实战_黄文坚</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225134548">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Deep Learning with TensorFlow</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073718">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Deep Time Series Forecasting with Python</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073723">pdf</a></td>
+</tr>
+<tr>
+<td align="left">TensorFlow技术解析与实战</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959172">awz3</a></td>
+</tr>
+<tr>
+<td align="left">面向机器智能的TensorFlow实践 (智能系统与技术丛书)</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959185">epub</a></td>
+</tr>
+<tr>
+<td align="left">TensorFlow Machine Learning Cookbook</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074420">pdf</a></td>
+</tr>
+<tr>
+<td align="left">TensorFlow For Machine Intelligence</td>
+<td align="left">2016</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074417">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="pytorch">Pytorch</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PyTorch深度学习实战</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219958978">epub</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="caffe">Caffe</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">深度学习 21天实战Caffe</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959601">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Caffe官方教程中译本_CaffeCN社区翻译(caffecn.cn)</td>
+<td align="left">2014</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-219959336">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="java">Java</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Deep Learning Practical Neural Networks with Java</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073674">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Data Science with Java Practical Methods for Scientists and Engineers</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073607">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Spark机器学习模块源码解读</td>
+<td align="left">2017</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074395">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="keras">Keras</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Deep Learning with Keras</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073685">azw3</a> <a href="https://page65.ctfile.com/fs/15461965-220073705">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="python">Python</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">出版时间</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Hands-On Machine Learning with Scikit-Learn and TensorFlow</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073865">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Deep Learning with Python</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220073716">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Python Deep Learning</td>
+<td align="left">2017</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://page65.ctfile.com/fs/15461965-220074045">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_14">大数据</h2>
+<h3 id="hadoop">Hadoop</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Hadoop权威指南 第3版</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225207297">pdf</a></td>
+</tr>
+<tr>
+<td align="left">深入云计算 Hadoop源代码分析 第2版 (修订版)</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225225409">pdf</a></td>
+</tr>
+<tr>
+<td align="left">深入理解Hadoop 第2版</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225214851">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Apache Mahout  Beyond MapReduce</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228563">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Hadoop Data Processing and Modelling</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228508">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Hadoop The Definitive Guide, 4th Edition</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228656">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="spark">Spark</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Apache Spark源码剖析</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225211524">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Spark技术内幕  深入解析Spark内核架构设计与实现原理</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225209608">pdf1</a> <a href="https://u15461965.ctfile.com/fs/15461965-225207311">pdf2</a></td>
+</tr>
+<tr>
+<td align="left">Spark高级数据分析</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225211850">pdf</a></td>
+</tr>
+<tr>
+<td align="left">大数据Spark企业级实战版</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225208498">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Advanced Analytics with Spark Patterns for Learning from Data at Scale 2nd Edition</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225227662">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Advanced Analytics with Spark-2nd</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228377">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Apache Spark 2.x Cookbook</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228363">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Spark MLlib机器学习实践 王晓华著</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225227539">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Spark机器学习</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225226748">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Apache Spark 2.x for Java Developers</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228412">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Spark for Data Science</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228541">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="flink">Flink</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Introduction_to_Apache_Flink_MapR_final</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228553">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Learning Apache Flink</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228389">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_15">其他</h3>
+<table>
+<thead>
+<tr>
+<th align="left">图书名</th>
+<th align="left">语言</th>
+<th align="left">下载链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">实战大数据</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228333">pdf</a></td>
+</tr>
+<tr>
+<td align="left">驾驭大数据</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225226545">pdf</a></td>
+</tr>
+<tr>
+<td align="left">Apache Kylin权威指南</td>
+<td align="left">中文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225215126">pdf</a> <a href="https://u15461965.ctfile.com/fs/15461965-225228618">epub</a></td>
+</tr>
+<tr>
+<td align="left">Analysis of Large and Complex Data</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228477">pdf</a></td>
+</tr>
+<tr>
+<td align="left">HBase High Performance Cookbook</td>
+<td align="left">英文</td>
+<td align="left"><a href="https://u15461965.ctfile.com/fs/15461965-225228533">pdf</a></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_16">程序设计语言</h2>
+<h3 id="python_1">Python</h3>
+<h3 id="java_1">Java</h3>
+<h3 id="scala">Scala</h3>
+<h3 id="c">C</h3>
+<h3 id="cc">C/C++</h3>
+<h3 id="javascript">JavaScript</h3>
+<h3 id="_17">其他</h3>
+<h2 id="_18">软件工程</h2>
+<h3 id="_19">需求</h3>
+<h3 id="_20">管理</h3>
+<h3 id="_21">测试</h3>
+<h3 id="_22">设计模式</h3>
+<h2 id="_23">操作系统</h2>
+<h3 id="windows">Windows</h3>
+<h3 id="linux">Linux</h3>
+<h3 id="_24">分布式系统</h3>
+<h3 id="_25">虚拟化</h3>
+<h3 id="_26">编译原理</h3>
+<h3 id="_27">并发</h3>
+<h2 id="_28">网络与安全</h2>
+<h3 id="_29">计算机网络</h3>
+<h3 id="_30">攻防</h3>
+<h2 id="_31">数据库</h2>
+<h3 id="mysql">MySQL</h3>
+<h3 id="msserver">MSServer</h3>
+<h3 id="postgres">Postgres</h3>
+<h2 id="_32">移动开发</h2>
+<h3 id="android">android</h3>
+<h3 id="ios">ios</h3>
+<h3 id="game">game</h3>
+<h2 id="_33">程序员技能</h2>
+<h3 id="tex">Tex</h3>
+<h3 id="_34">面试</h3>
+<h3 id="_35">拓展读物</h3>
+<h2 id="_36">学术论文</h2></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="./js/jquery-1.10.2.min.js"></script>
+    <script src="./js/bootstrap-3.0.3.min.js"></script>
+    <script src="./js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '.';
+    </script>
+    <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+    <script src="./js/base.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
+
+<!--
+MkDocs version : 0.16.3
+Build Date UTC : 2017-10-21 07:15:45
+-->
